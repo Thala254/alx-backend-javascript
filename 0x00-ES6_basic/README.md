@@ -158,7 +158,7 @@ export function taskNext() {
 
 Execution example:
 
-```
+```bash
 bob@dylan:~$ cat 0-main.js
 import { taskFirst, taskNext } from './0-constants.js';
 
@@ -191,7 +191,7 @@ export default function taskBlock(trueOrFalse) {
 
 Execution:
 
-```
+```bash
 bob@dylan:~$ cat 1-main.js
 import taskBlock from './1-block-scoped.js';
 
@@ -223,7 +223,7 @@ export default function getNeighborhoodsList() {
 
 Execution:
 
-```
+```bash
 bob@dylan:~$ cat 2-main.js
 import getNeighborhoodsList from './2-arrow.js';
 
@@ -258,7 +258,7 @@ export default function getSumOfHoods(initialNumber, expansion1989, expansion201
 
 Execution:
 
-```
+```bash
 bob@dylan:~$ cat 3-main.js
 import getSumOfHoods from './3-default-parameter.js';
 
@@ -294,7 +294,7 @@ Example:
 
 Execution:
 
-```
+```bash
 bob@dylan:~$ cat 4-main.js
 import returnHowManyArguments from './4-rest-parameter.js';
 
@@ -319,7 +319,7 @@ export default function concatArrays(array1, array2, string) {
 
 Execution:
 
-```
+```bash
 bob@dylan:~$ cat 5-main.js
 import concatArrays from './5-spread-operator.js';
 
@@ -357,7 +357,7 @@ export default function getSanFranciscoDescription() {
 
 Execution:
 
-```
+```bash
 bob@dylan:~$ cat 6-main.js
 import getSanFranciscoDescription from './6-string-interpolation.js';
 
@@ -390,7 +390,7 @@ export default function getBudgetObject(income, gdp, capita) {
 
 Execution:
 
-```
+```bash
 bob@dylan:~$ cat 7-main.js
 import getBudgetObject from './7-getBudgetObject.js';
 
@@ -426,7 +426,7 @@ export default function getBudgetForCurrentYear(income, gdp, capita) {
 
 Execution:
 
-```
+```bash
 bob@dylan:~$ cat 8-main.js
 import getBudgetForCurrentYear from './8-getBudgetCurrentYear.js';
 
@@ -464,7 +464,7 @@ export default function getFullBudgetObject(income, gdp, capita) {
 
 Execution:
 
-```
+```bash
 bob@dylan:~$ cat 9-main.js
 import getFullBudgetObject from './9-getFullBudget.js';
 
@@ -498,7 +498,7 @@ export default function appendToEachArrayValue(array, appendString) {
 
 Execution:
 
-```
+```bash
 bob@dylan:~$ cat 10-main.js
 import appendToEachArrayValue from './10-loops.js';
 
@@ -536,7 +536,7 @@ The function should return an object with the following format:
 
 Execution:
 
-```
+```bash
 bob@dylan:~$ cat 11-main.js
 import createEmployeesObject from './11-createEmployeesObject.js';
 
@@ -578,7 +578,7 @@ The method property receives `employeesList` and returns the number of departmen
 
 Execution:
 
-```
+```bash
 bob@dylan:~$ cat 12-main.js
 import createEmployeesObject from './11-createEmployeesObject.js';
 import createReportObject from './12-createReportObject.js';
@@ -614,7 +614,7 @@ export default function createIteratorObject(report) {
 
 Execution:
 
-```
+```bash
 bob@dylan:~$ cat 100-main.js
 import createIteratorObject from "./100-createIteratorObject.js";
 
@@ -688,7 +688,7 @@ Full example:
 
 Execution:
 
-```
+```bash
 bob@dylan:~$ cat 101-main.js
 import createEmployeesObject from "./11-createEmployeesObject.js";
 import createReportObject from './12-createReportObject.js';
